@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "target": "es2022",
+    "paths": {
+      "@/*": ["./src/*"]
+    }                             /* Skip type checking all .d.ts files. */
+  },
+  "include": ["./src/*.ts", "./src/**/*.ts", ".eslintrc.js"],
+  "exclude": ["background.js"]
+}
